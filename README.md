@@ -45,3 +45,6 @@ https://www.figma.com/file/RnjzjBjFHsveqDbW24v3v2/interview-assignments?node-id=
 ## 作业在哪？如何提交？
 Fork 当前仓库，将代码放入front-end 目录下，完成作业后提交一个 Pull Request 即可。例如 front-end/zhangsan；
 注意：使用尽量简洁的实现方式，尽量少使用第三方库。
+
+## 承诺
+- 认真交作业，我们也会认真的review，非常感谢您的投递，同时也非常期待您的加入~~ 
