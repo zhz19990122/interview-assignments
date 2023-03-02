@@ -8,6 +8,7 @@
 - 封装为 `<CouponBanner>` 组件
 - 使用 Function Component & React Hooks 实现，不能用 Class Component
 - 使用 TypeScript 实现
+- 设计mock数据并考虑文案支持多语言
 
 ## 设计稿源文件
 - 设计稿源文件: [ui.fig](./ui.fig)，可使用在线Figma打开(https://www.figma.com/)。
