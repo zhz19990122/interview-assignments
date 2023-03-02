@@ -43,7 +43,8 @@
   - 能力突出者可适当放宽年限
 
 ## 作业在哪？如何提交？
-Fork 当前仓库，将代码放入front-end 目录下，完成作业后提交一个 Pull Request 即可。例如 front-end/zhangsan；
+ - 方式1： 将代码放入个人github，发对应的仓库地址给我们；（推荐）
+ - 方式2： Fork 当前仓库，将代码放入front-end 目录下，完成作业后提交一个 Pull Request 即可。例如 front-end/zhangsan；
 注意：使用尽量简洁的实现方式，尽量少使用第三方库。
 
 ## 承诺
