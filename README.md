@@ -9,8 +9,8 @@
 - 使用 React Hooks 实现，不能用 Class Component
 - 使用 TypeScript 实现
 
-## 设计稿链接
-https://www.figma.com/file/RnjzjBjFHsveqDbW24v3v2/interview-assignments?node-id=0%3A1&t=fjXztoz4uPNLqZRR-1
+## 设计稿源文件
+- 设计稿源文件: [ui.fig](./ui.fig)，可使用在线Figma打开(https://www.figma.com/)。
 
 ### 1440设计稿预览
 ![1440](https://img.mrvcdn.com/us/media/38df616ba20e1d950b729d1684d4023c-1022-336.png)
