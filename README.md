@@ -6,7 +6,7 @@
 - 支持响应式布局：768以上按1440样式展示，768及其以下按768样式展示
 - 功能要求：设定一个24小时的倒计时，并实时展示倒计时剩余时间
 - 封装为 `<CouponBanner>` 组件
-- 使用函数组件 & React Hooks 实现，不能用 Class Component
+- 使用 Function Component & React Hooks 实现，不能用 Class Component
 - 使用 TypeScript 实现
 
 ## 设计稿源文件
