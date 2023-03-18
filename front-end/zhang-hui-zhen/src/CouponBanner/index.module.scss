@@ -1,0 +1,407 @@
+.couponBanner {
+  width: 100%;
+  position: relative;
+  background-color: #2D2765;
+
+
+  @mixin flex-center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 300px;
+
+    img.arrow[alt="arrow"] {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: url('./images/large-screen-arrow.png');
+    }
+
+    img.model[alt="model"] {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: url('./images/large-screen-model.png');
+    }
+
+    .welcomeContainer {
+      position: absolute;
+      width: 534px;
+      height: 150px;
+      right: 60px;
+      top: 90px;
+      background-color: #D7D4FC;
+
+      &::after {
+        position: relative;
+      }
+
+      img.vector[alt="vector"] {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: url('./images/large-screen-vector.png');
+      }
+
+      .thirtyPercent {
+        position: absolute;
+        top: 35px;
+        left: 52px;
+        font-family: Avenir Next;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 49px;
+        letter-spacing: 0px;
+        text-align: center;
+      }
+
+      .off {
+        position: absolute;
+        top: 84px;
+        left: 70px;
+        font-family: Avenir Next;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      .welcome {
+        position: absolute;
+        margin: 0;
+        top: 20px;
+        left: 183px;
+        font-family: 'GT Flexa';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0px;
+        color: #1E1F26;
+        text-align: left;
+      }
+
+      .arise {
+        position: absolute;
+        top: 50px;
+        left: 183px;
+        font-family: 'Avenir Next';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #4D5360;
+      }
+
+      .price {
+        position: absolute;
+        top: 70px;
+        left: 183px;
+        font-family: 'Avenir Next';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #4D5360;
+      }
+
+      .copyWrite {
+        position: absolute;
+        bottom: 16px;
+        right: 16px;
+        font-family: 'Avenir Next';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 14px;
+        text-align: right;
+        text-decoration-line: underline;
+        color: #858B9C;
+      }
+
+      .button {
+        position: absolute;
+        top: 98px;
+        left: 183px;
+        width: 206px;
+        height: 32px;
+        background-color: #272833;
+        color: #fff;
+        border: none;
+        font-family: 'Avenir Next';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        cursor: pointer;
+      }
+    }
+
+    .title {
+      position: absolute;
+      margin: 0;
+      width: 312px;
+      height: 72px;
+      left: 372px;
+      top: 64px;
+      font-family: 'GT Flexa';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 36px;
+      color: #FFFFFF;
+    }
+
+    .subTitle {
+      position: absolute;
+      margin: 0;
+      left: 372px;
+      top: 148px;
+      font-family: 'GT Flexa';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 72px;
+      color: #FFFFFF;
+
+      .off {
+        margin-left: 5px;
+      }
+    }
+
+
+    .timer {
+      position: absolute;
+      height: 23px;
+      right: 60px;
+      top: 42px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+
+      .end {
+        margin-right: 8px;
+      }
+
+      .h {}
+
+      .m {}
+
+      .s {}
+
+      .rect {
+        display: inline-block;
+        width: 23px;
+        height: 23px;
+        background: #D7D4FC;
+        margin: 4px;
+        @include flex-center();
+        color: #1E1F26;
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    height: 817px;
+
+    img.arrow[alt="arrow"] {
+      position: absolute;
+      top: 0;
+      right: 0;
+      content: url('./images/smaller-screen-arrow.png');
+    }
+
+    img.model[alt="model"] {
+      position: absolute;
+      top: 0;
+      right: 0;
+      content: url('./images/smaller-screen-model.png');
+    }
+
+    .welcomeContainer {
+      position: absolute;
+      width: 648px;
+      height: 204px;
+      bottom: 60px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #D7D4FC;
+
+      &::after {
+        position: relative;
+      }
+
+      img.vector[alt="vector"] {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: url('./images/smaller-screen-vector.png');
+      }
+
+      .thirtyPercent {
+        position: absolute;
+        top: 56px;
+        left: 54px;
+        font-family: Avenir Next;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 49px;
+        letter-spacing: 0px;
+        text-align: center;
+      }
+
+      .off {
+        position: absolute;
+        top: 112px;
+        left: 63px;
+        font-family: Avenir Next;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      .welcome {
+        position: absolute;
+        margin: 0;
+        top: 24px;
+        left: 210px;
+        font-family: 'GT Flexa';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0px;
+        color: #1E1F26;
+        text-align: left;
+      }
+
+      .arise {
+        position: absolute;
+        top: 60px;
+        left: 210px;
+        font-family: 'Avenir Next';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        color: #4D5360;
+      }
+
+      .price {
+        position: absolute;
+        top: 90px;
+        left: 210px;
+        font-family: 'Avenir Next';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        color: #4D5360;
+      }
+
+      .copyWrite {
+        position: absolute;
+        bottom: 12px;
+        right: 12px;
+        font-family: 'Avenir Next';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        text-decoration-line: underline;
+        color: #858B9C;
+      }
+
+      .button {
+        position: absolute;
+        width: 334.51px;
+        height: 54px;
+        left: 210px;
+        top: 126px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 11px 100px;
+        gap: 10px;
+        background-color: #1E1F26;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+    }
+
+    .title {
+      position: absolute;
+      margin: 0;
+      width: 426px;
+      height: 94px;
+      left: 60px;
+      top: 60px;
+      font-family: 'GT Flexa';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 32px;
+      line-height: 47px;
+      color: #FFFFFF;
+    }
+
+    .subTitle {
+      position: absolute;
+      margin: 0;
+      width: 259px;
+      height: 258px;
+      left: 61px;
+      top: 172px;
+      font-family: 'GT Flexa';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 130px;
+      color: #FFFFFF;
+
+      display: flex;
+      flex-direction: column;
+    }
+
+    .timer {
+      position: absolute;
+      width: 239px;
+      height: 35px;
+      left: 60px;
+      top: 486px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+
+      .end {
+        margin-right: 14px;
+      }
+
+      .h {}
+
+      .m {}
+
+      .s {}
+
+      .rect {
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        background: #D7D4FC;
+        @include flex-center();
+        color: #1E1F26;
+      }
+    }
+  }
+}
